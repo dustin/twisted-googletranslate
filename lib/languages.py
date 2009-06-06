@@ -136,7 +136,7 @@ class Translation(object):
     This class represents a translation between two languages
     """
     translation_pairs = (
-    
+
             # ARABIC PAIR
             (Language('ARABIC'), Language('ARABIC')),
             (Language('ARABIC'), Language('BULGARIAN')),
@@ -174,7 +174,7 @@ class Translation(object):
             (Language('ARABIC'), Language('SWEDISH')),
             (Language('ARABIC'), Language('UKRAINIAN')),
             (Language('ARABIC'), Language('VIETNAMESE')),
-            
+
             # BULGARIAN PAIR
             (Language('BULGARIAN'), Language('ARABIC')),
             (Language('BULGARIAN'), Language('BULGARIAN')),
@@ -212,8 +212,8 @@ class Translation(object):
             (Language('BULGARIAN'), Language('SWEDISH')),
             (Language('BULGARIAN'), Language('UKRAINIAN')),
             (Language('BULGARIAN'), Language('VIETNAMESE')),
-            
-            
+
+
             # CHINESE PAIR
             (Language('CHINESE'), Language('ARABIC')),
             (Language('CHINESE'), Language('BULGARIAN')),
@@ -251,7 +251,7 @@ class Translation(object):
             (Language('CHINESE'), Language('SWEDISH')),
             (Language('CHINESE'), Language('UKRAINIAN')),
             (Language('CHINESE'), Language('VIETNAMESE')),
-            
+
             # CHINESE_TRADITIONAL PAIR
             (Language('CHINESE_TRADITIONAL'), Language('ARABIC')),
             (Language('CHINESE_TRADITIONAL'), Language('BULGARIAN')),
@@ -289,7 +289,7 @@ class Translation(object):
             (Language('CHINESE_TRADITIONAL'), Language('SWEDISH')),
             (Language('CHINESE_TRADITIONAL'), Language('UKRAINIAN')),
             (Language('CHINESE_TRADITIONAL'), Language('VIETNAMESE')),
-            
+
             #CHINESE_SIMPLIFIED PAIR
             (Language('CHINESE_SIMPLIFIED'), Language('ARABIC')),
             (Language('CHINESE_SIMPLIFIED'), Language('BULGARIAN')),
@@ -327,7 +327,7 @@ class Translation(object):
             (Language('CHINESE_SIMPLIFIED'), Language('SWEDISH')),
             (Language('CHINESE_SIMPLIFIED'), Language('UKRAINIAN')),
             (Language('CHINESE_SIMPLIFIED'), Language('VIETNAMESE')),
-            
+
             # CATALAN PAIR
             (Language('CATALAN'), Language('ARABIC')),
             (Language('CATALAN'), Language('BULGARIAN')),
@@ -365,7 +365,7 @@ class Translation(object):
             (Language('CATALAN'), Language('SWEDISH')),
             (Language('CATALAN'), Language('UKRAINIAN')),
             (Language('CATALAN'), Language('VIETNAMESE')),
-            
+
             # CROATIAN PAIR
             (Language('CROATIAN'), Language('ARABIC')),
             (Language('CROATIAN'), Language('BULGARIAN')),
@@ -403,7 +403,7 @@ class Translation(object):
             (Language('CROATIAN'), Language('SWEDISH')),
             (Language('CROATIAN'), Language('UKRAINIAN')),
             (Language('CROATIAN'), Language('VIETNAMESE')),
-            
+
             # DANISH PAIR
             (Language('DANISH'), Language('ARABIC')),
             (Language('DANISH'), Language('BULGARIAN')),
@@ -441,7 +441,7 @@ class Translation(object):
             (Language('DANISH'), Language('SWEDISH')),
             (Language('DANISH'), Language('UKRAINIAN')),
             (Language('DANISH'), Language('VIETNAMESE')),
-            
+
             # DUTCH PAIR
              (Language('DUTCH'), Language('ARABIC')),
             (Language('DUTCH'), Language('BULGARIAN')),
@@ -479,7 +479,7 @@ class Translation(object):
             (Language('DUTCH'), Language('SWEDISH')),
             (Language('DUTCH'), Language('UKRAINIAN')),
             (Language('DUTCH'), Language('VIETNAMESE')),
-            
+
             # ENGLISH PAIR
             (Language('ENGLISH'), Language('ARABIC')),
             (Language('ENGLISH'), Language('BULGARIAN')),
@@ -517,7 +517,7 @@ class Translation(object):
             (Language('ENGLISH'), Language('SWEDISH')),
             (Language('ENGLISH'), Language('UKRAINIAN')),
             (Language('ENGLISH'), Language('VIETNAMESE')),
-            
+
             # FILIPINO PAIR
             (Language('FILIPINO'), Language('ARABIC')),
             (Language('FILIPINO'), Language('BULGARIAN')),
@@ -555,7 +555,7 @@ class Translation(object):
             (Language('FILIPINO'), Language('SWEDISH')),
             (Language('FILIPINO'), Language('UKRAINIAN')),
             (Language('FILIPINO'), Language('VIETNAMESE')),
-            
+
             # FINNISH PAIR
             (Language('FINNISH'), Language('ARABIC')),
             (Language('FINNISH'), Language('BULGARIAN')),
@@ -593,7 +593,7 @@ class Translation(object):
             (Language('FINNISH'), Language('SWEDISH')),
             (Language('FINNISH'), Language('UKRAINIAN')),
             (Language('FINNISH'), Language('VIETNAMESE')),
-            
+
             # FRENCH PAIR
             (Language('FRENCH'), Language('ARABIC')),
             (Language('FRENCH'), Language('BULGARIAN')),
@@ -631,7 +631,7 @@ class Translation(object):
             (Language('FRENCH'), Language('SWEDISH')),
             (Language('FRENCH'), Language('UKRAINIAN')),
             (Language('FRENCH'), Language('VIETNAMESE')),
-            
+
             # GERMAN PAIR
             (Language('GERMAN'), Language('ARABIC')),
             (Language('GERMAN'), Language('BULGARIAN')),
@@ -669,7 +669,7 @@ class Translation(object):
             (Language('GERMAN'), Language('SWEDISH')),
             (Language('GERMAN'), Language('UKRAINIAN')),
             (Language('GERMAN'), Language('VIETNAMESE')),
-            
+
             # GREEK PAIR
             (Language('GREEK'), Language('ARABIC')),
             (Language('GREEK'), Language('BULGARIAN')),
@@ -707,7 +707,7 @@ class Translation(object):
             (Language('GREEK'), Language('SWEDISH')),
             (Language('GREEK'), Language('UKRAINIAN')),
             (Language('GREEK'), Language('VIETNAMESE')),
-            
+
             # HEBREW PAIR
             (Language('HEBREW'), Language('ARABIC')),
             (Language('HEBREW'), Language('BULGARIAN')),
@@ -745,7 +745,7 @@ class Translation(object):
             (Language('HEBREW'), Language('SWEDISH')),
             (Language('HEBREW'), Language('UKRAINIAN')),
             (Language('HEBREW'), Language('VIETNAMESE')),
-            
+
             # HINDI PAIR
             (Language('HINDI'), Language('ARABIC')),
             (Language('HINDI'), Language('BULGARIAN')),
@@ -783,7 +783,7 @@ class Translation(object):
             (Language('HINDI'), Language('SWEDISH')),
             (Language('HINDI'), Language('UKRAINIAN')),
             (Language('HINDI'), Language('VIETNAMESE')),
-            
+
             # INDONESIAN PAIR
             (Language('INDONESIAN'), Language('ARABIC')),
             (Language('INDONESIAN'), Language('BULGARIAN')),
@@ -821,7 +821,7 @@ class Translation(object):
             (Language('INDONESIAN'), Language('SWEDISH')),
             (Language('INDONESIAN'), Language('UKRAINIAN')),
             (Language('INDONESIAN'), Language('VIETNAMESE')),
-            
+
             # ITALIAN PAIR
             (Language('ITALIAN'), Language('ARABIC')),
             (Language('ITALIAN'), Language('BULGARIAN')),
@@ -859,7 +859,7 @@ class Translation(object):
             (Language('ITALIAN'), Language('SWEDISH')),
             (Language('ITALIAN'), Language('UKRAINIAN')),
             (Language('ITALIAN'), Language('VIETNAMESE')),
-            
+
             # JAPANESE PAIR
             (Language('JAPANESE'), Language('ARABIC')),
             (Language('JAPANESE'), Language('BULGARIAN')),
@@ -897,7 +897,7 @@ class Translation(object):
             (Language('JAPANESE'), Language('SWEDISH')),
             (Language('JAPANESE'), Language('UKRAINIAN')),
             (Language('JAPANESE'), Language('VIETNAMESE')),
-            
+
             # KOREAN PAIR
             (Language('KOREAN'), Language('ARABIC')),
             (Language('KOREAN'), Language('BULGARIAN')),
@@ -935,7 +935,7 @@ class Translation(object):
             (Language('KOREAN'), Language('SWEDISH')),
             (Language('KOREAN'), Language('UKRAINIAN')),
             (Language('KOREAN'), Language('VIETNAMESE')),
-            
+
             # LATVIAN PAIR
             (Language('LATVIAN'), Language('ARABIC')),
             (Language('LATVIAN'), Language('BULGARIAN')),
@@ -973,7 +973,7 @@ class Translation(object):
             (Language('LATVIAN'), Language('SWEDISH')),
             (Language('LATVIAN'), Language('UKRAINIAN')),
             (Language('LATVIAN'), Language('VIETNAMESE')),
-            
+
             # LITHUANIAN
             (Language('LITHUANIAN'), Language('ARABIC')),
             (Language('LITHUANIAN'), Language('BULGARIAN')),
@@ -1011,7 +1011,7 @@ class Translation(object):
             (Language('LITHUANIAN'), Language('SWEDISH')),
             (Language('LITHUANIAN'), Language('UKRAINIAN')),
             (Language('LITHUANIAN'), Language('VIETNAMESE')),
-            
+
             # NORWEGIAN PAIR
             (Language('NORWEGIAN'), Language('ARABIC')),
             (Language('NORWEGIAN'), Language('BULGARIAN')),
@@ -1049,7 +1049,7 @@ class Translation(object):
             (Language('NORWEGIAN'), Language('SWEDISH')),
             (Language('NORWEGIAN'), Language('UKRAINIAN')),
             (Language('NORWEGIAN'), Language('VIETNAMESE')),
-            
+
             # POLISH PAIR
             (Language('POLISH'), Language('ARABIC')),
             (Language('POLISH'), Language('BULGARIAN')),
@@ -1087,7 +1087,7 @@ class Translation(object):
             (Language('POLISH'), Language('SWEDISH')),
             (Language('POLISH'), Language('UKRAINIAN')),
             (Language('POLISH'), Language('VIETNAMESE')),
-            
+
             # PORTUGUESE PAIR
             (Language('PORTUGUESE'), Language('ARABIC')),
             (Language('PORTUGUESE'), Language('BULGARIAN')),
@@ -1125,7 +1125,7 @@ class Translation(object):
             (Language('PORTUGUESE'), Language('SWEDISH')),
             (Language('PORTUGUESE'), Language('UKRAINIAN')),
             (Language('PORTUGUESE'), Language('VIETNAMESE')),
-            
+
             # ROMANIAN PAIR
             (Language('ROMANIAN'), Language('ARABIC')),
             (Language('ROMANIAN'), Language('BULGARIAN')),
@@ -1163,7 +1163,7 @@ class Translation(object):
             (Language('ROMANIAN'), Language('SWEDISH')),
             (Language('ROMANIAN'), Language('UKRAINIAN')),
             (Language('ROMANIAN'), Language('VIETNAMESE')),
-            
+
             # RUSSIAN PAIR
             (Language('RUSSIAN'), Language('ARABIC')),
             (Language('RUSSIAN'), Language('BULGARIAN')),
@@ -1201,7 +1201,7 @@ class Translation(object):
             (Language('RUSSIAN'), Language('SWEDISH')),
             (Language('RUSSIAN'), Language('UKRAINIAN')),
             (Language('RUSSIAN'), Language('VIETNAMESE')),
-            
+
             # SPANISH PAIR
                     (Language('SPANISH'), Language('ARABIC')),
             (Language('SPANISH'), Language('BULGARIAN')),
@@ -1239,7 +1239,7 @@ class Translation(object):
             (Language('SPANISH'), Language('SWEDISH')),
             (Language('SPANISH'), Language('UKRAINIAN')),
             (Language('SPANISH'), Language('VIETNAMESE')),
-            
+
             # SERBIAN PAIR
             (Language('SERBIAN'), Language('ARABIC')),
             (Language('SERBIAN'), Language('BULGARIAN')),
@@ -1277,7 +1277,7 @@ class Translation(object):
             (Language('SERBIAN'), Language('SWEDISH')),
             (Language('SERBIAN'), Language('UKRAINIAN')),
             (Language('SERBIAN'), Language('VIETNAMESE')),
-            
+
             # SLOVAK PAIR
             (Language('SLOVAK'), Language('ARABIC')),
             (Language('SLOVAK'), Language('BULGARIAN')),
@@ -1315,7 +1315,7 @@ class Translation(object):
             (Language('SLOVAK'), Language('SWEDISH')),
             (Language('SLOVAK'), Language('UKRAINIAN')),
             (Language('SLOVAK'), Language('VIETNAMESE')),
-            
+
             # SLOVENIAN PAIR
             (Language('SLOVENIAN'), Language('ARABIC')),
             (Language('SLOVENIAN'), Language('BULGARIAN')),
@@ -1353,7 +1353,7 @@ class Translation(object):
             (Language('SLOVENIAN'), Language('SWEDISH')),
             (Language('SLOVENIAN'), Language('UKRAINIAN')),
             (Language('SLOVENIAN'), Language('VIETNAMESE')),
-            
+
             # SWEDISH PAIR
             (Language('SWEDISH'), Language('ARABIC')),
             (Language('SWEDISH'), Language('BULGARIAN')),
@@ -1391,7 +1391,7 @@ class Translation(object):
             (Language('SWEDISH'), Language('SWEDISH')),
             (Language('SWEDISH'), Language('UKRAINIAN')),
             (Language('SWEDISH'), Language('VIETNAMESE')),
-            
+
             # UKRAINIAN PAIR
             (Language('UKRAINIAN'), Language('ARABIC')),
             (Language('UKRAINIAN'), Language('BULGARIAN')),
@@ -1429,7 +1429,7 @@ class Translation(object):
             (Language('UKRAINIAN'), Language('SWEDISH')),
             (Language('UKRAINIAN'), Language('UKRAINIAN')),
             (Language('UKRAINIAN'), Language('VIETNAMESE')),
-            
+
             # VIETNAMESE PAIR
             (Language('VIETNAMESE'), Language('ARABIC')),
             (Language('VIETNAMESE'), Language('BULGARIAN')),
@@ -1467,8 +1467,8 @@ class Translation(object):
             (Language('VIETNAMESE'), Language('SWEDISH')),
             (Language('VIETNAMESE'), Language('UKRAINIAN')),
             (Language('VIETNAMESE'), Language('VIETNAMESE')),
-            
-            
+
+
     )
 
     @staticmethod
@@ -1498,4 +1498,4 @@ class Translation(object):
         """
         return  u'%s|%s' % (self.language_origin, self.language_destiny)
 
-        
+
