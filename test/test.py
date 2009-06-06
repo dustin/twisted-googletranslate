@@ -29,7 +29,20 @@ class TranslateTest(unittest.TestCase):
         d.addCallback(checkResult)
         d.addErrback(lambda e: self.fail(str(e)))
         fh.d.callback('hello')
-        
+
+    def testOKTranslationFromLangAbbreviations(self):
+        fh = FakeHTTP()
+        tr = translate.Translate(languages.Language('it'),
+                                 languages.Language('en'),
+                                 client=fh)
+        d = tr.translate('ciao')
+        def checkResult(s):
+            self.assertEquals(s, 'hello')
+
+        d.addCallback(checkResult)
+        d.addErrback(lambda e: self.fail(str(e)))
+        fh.d.callback('hello')
+
     def testFailedTranslation(self):
         fh = FakeHTTP()
         tr = translate.Translate(languages.Language(u'ITALIAN'),

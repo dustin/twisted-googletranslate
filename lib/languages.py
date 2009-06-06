@@ -97,16 +97,17 @@ class Language(object):
         'UZBEK' : u"uz",
         'UIGHUR' : u"ug",
         'VIETNAMESE' : u"vi",
-
     }
 
-    languages_choose = ('ARABIC', 'BULGARIAN', 'CHINESE', 'CHINESE_SIMPLIFIED', 
-                        'CHINESE_TRADITIONAL', 'CATALAN', 'CROATIAN', 'CZECH', 
-                        'DANISH', 'DUTCH', 'ENGLISH', 'FILIPINO', 'FINNISH', 
-                        'FRENCH', 'GERMAN', 'GREEK', 'HEBREW', 'HINDI', 'INDONESIAN', 
-                        'ITALIAN', 'JAPANESE', 'KOREAN', 'LATVIAN', 'LITHUANIAN', 
-                        'NORWEGIAN', 'POLISH', 'PORTUGUESE', 'ROMANIAN', 'RUSSIAN', 
-                        'SPANISH', 'SERBIAN', 'SLOVAK', 'SLOVENIAN', 'SWEDISH', 
+    languages_rev = dict((v,k) for k,v in languages.iteritems())
+
+    languages_choose = ('ARABIC', 'BULGARIAN', 'CHINESE', 'CHINESE_SIMPLIFIED',
+                        'CHINESE_TRADITIONAL', 'CATALAN', 'CROATIAN', 'CZECH',
+                        'DANISH', 'DUTCH', 'ENGLISH', 'FILIPINO', 'FINNISH',
+                        'FRENCH', 'GERMAN', 'GREEK', 'HEBREW', 'HINDI', 'INDONESIAN',
+                        'ITALIAN', 'JAPANESE', 'KOREAN', 'LATVIAN', 'LITHUANIAN',
+                        'NORWEGIAN', 'POLISH', 'PORTUGUESE', 'ROMANIAN', 'RUSSIAN',
+                        'SPANISH', 'SERBIAN', 'SLOVAK', 'SLOVENIAN', 'SWEDISH',
                         'UKRAINIAN', 'VIETNAMESE')
 
     def __init__(self, language):
@@ -115,10 +116,12 @@ class Language(object):
 
         language -- The language string in all uppercase
         """
-        try:
-            self._language =  Language.languages[language]
-        except:
-            raise Exception, "Language %s doesn't even exist. Don't play with me. :/" % language
+        if language.lower() in self.languages_rev:
+            self._language = language.lower()
+        elif language.upper() in self.languages:
+            self._language =  self.languages[language.upper()]
+        else:
+            raise ValueError("No such language: %s" % language)
 
     def __str__(self):
         return self._language
