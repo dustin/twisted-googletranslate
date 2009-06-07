@@ -30,10 +30,36 @@ class TranslateTest(unittest.TestCase):
         d.addErrback(lambda e: self.fail(str(e)))
         fh.d.callback('hello')
 
+    def testOKDowncaseTranslation(self):
+        fh = FakeHTTP()
+        tr = translate.Translate(languages.Language(u'italian'),
+                                 languages.Language(u'english'),
+                                 client=fh)
+        d = tr.translate('ciao')
+        def checkResult(s):
+            self.assertEquals(s, 'hello')
+
+        d.addCallback(checkResult)
+        d.addErrback(lambda e: self.fail(str(e)))
+        fh.d.callback('hello')
+
     def testOKTranslationFromLangAbbreviations(self):
         fh = FakeHTTP()
         tr = translate.Translate(languages.Language('it'),
                                  languages.Language('en'),
+                                 client=fh)
+        d = tr.translate('ciao')
+        def checkResult(s):
+            self.assertEquals(s, 'hello')
+
+        d.addCallback(checkResult)
+        d.addErrback(lambda e: self.fail(str(e)))
+        fh.d.callback('hello')
+
+    def testOKTranslationFromUpcaseLangAbbreviations(self):
+        fh = FakeHTTP()
+        tr = translate.Translate(languages.Language('IT'),
+                                 languages.Language('EN'),
                                  client=fh)
         d = tr.translate('ciao')
         def checkResult(s):
@@ -52,7 +78,4 @@ class TranslateTest(unittest.TestCase):
         d.addCallback(lambda e: self.fail('Boo'))
         d.addErrback(lambda e: self.assertTrue(e.type == RuntimeError))
         fh.d.errback(RuntimeError('Blah'))
-
-
-
 
